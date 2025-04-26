@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif; /* Define a fonte padrão para todos */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+    box-sizing: border-box; /* Faz o padding e a borda não alterarem o tamanho definido */
+}
+
+/* Estilização geral do body */
+body {
+    display: grid; /* Usa grid para organizar os elementos */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    background-color: cadetblue; /* Define a cor de fundo do body */
+    margin-top: 300px; /* Dá um espaço acima do conteúdo */
+}
+
+/* Estilização do container principal */
+.container {
+    height: 300px; /* Altura fixa do container */
+    width: 400px; /* Largura fixa do container */
+    display: grid; /* Usa grid para o layout interno */
+    justify-content: center;
+    padding: 0;
+    background-color: teal; /* Cor de fundo do container */
+    border-radius: 10px; /* Arredonda as bordas */
+}
+
+/* Estilização da descrição */
+.description {
+    margin: 0;
+    padding: 0;
+    height: 10px;
+}
+
+/* Estilização dos títulos */
+h1 {
+    font-size: 40px;
+    text-align: center; /* Centraliza o texto */
+    color: white;
+    margin: 20px 0 10px 0; /* Define margem: 20px em cima, 0 à direita, 10px embaixo e 0 à esquerda */
+    padding: 0;
+}
+
+/* Estilização dos parágrafos */
+p {
+    font-size: 18px;
+    text-align: center;
+    color: darkgray;
+}
+
+/* Estilização do contador */
+#counter {
+    display: inline-flex; /* Flex container para o contador */
+    padding: 0;
+    margin: 0; 
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilização dos botões */
+button {
+    margin: 10px;
+    padding: 0;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%; /* Deixa o botão redondo */
+    font-size: 16px;
+    font-weight: 600; /* Deixa o texto mais "grosso" */
+    text-align: center;
+    color: black;
+    background-color:aliceblue;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 16px;
+    font-family: Open Sans, sans-serif; /* tipo da fonte */
+    position: fixed; /* fixar no final da tela */
+    width: 100%;
+    bottom: 0;
+  }
